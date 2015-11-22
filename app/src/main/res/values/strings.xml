@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AudioPlayer</string>
     <string name="sirena">Tocar sirena</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="continuar">Continuar</string>
+    <string name="detener">Detener</string>
+    <string name="circular">Circular</string>
+    <string name="nocircular">No Circular</string>
 </resources>

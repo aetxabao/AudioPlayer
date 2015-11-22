@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity" >
-
-<Button
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/sirena"
-    android:onClick="tocarSirena"/>
-
-</RelativeLayout>
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/BtnIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onIniciarClick"
+        android:text="@string/iniciar" />
+    <Button
+        android:id="@+id/BtnPausar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPausarClick"
+        android:text="@string/pausar" />
+    <Button
+        android:id="@+id/BtnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onContinuarClick"
+        android:text="@string/continuar" />
+    <Button
+        android:id="@+id/BtnDetener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDetenerClick"
+        android:text="@string/detener" />
+    <Button
+        android:id="@+id/BtnCircular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCircularClick"
+        android:text="@string/circular" />
+</LinearLayout>
